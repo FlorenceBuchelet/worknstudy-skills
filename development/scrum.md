@@ -8,18 +8,18 @@
 
 - Différence entre Agile et SCRUM ❌ / ✔️
 - Expliquer les différents rituels et leur intérêt : ❌ / ✔️
-  - Daily Stand Up
+  - Daily Stand Up✔️
   - Sprint planning
-  - Retro
+  - Retro✔️
   - Grooming
-  - Poker planning
+  - Poker planning✔️
 - Expliquer les différents roles ❌ / ✔️
   - SCRUM master
   - Product Owner
   - Stakeholder
 - Comment rédiger une User Story complète ? ❌ / ✔️
 - Qu'est-ce qu'un Product Backlog ? ❌ / ✔️
-- Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ❌ / ✔️
+- Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ✔️
 - A quoi sert le Burndown Chart ? ❌ / ✔️
 - Quelles sont les 2 unités de complexité ? ❌ / ✔️
 - Qu'est-ce qu'une Definition of done ? A quoi sert elle ? ❌ / ✔️

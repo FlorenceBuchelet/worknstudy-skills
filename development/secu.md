@@ -7,7 +7,7 @@
 ## 🎓 J'ai compris et je peux expliquer
 
 - Le rôle de l'OWASP ❌ / ✔️
-- Les injections SQL ❌ / ✔️
+- Les injections SQL ✔️
 - XSS ❌ / ✔️
 - CRSF ❌ / ✔️
 
