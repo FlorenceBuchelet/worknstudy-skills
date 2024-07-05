@@ -17,9 +17,63 @@
 
 ### Un exemple personnel commenté ❌ / ✔️
 
+```js
+import { Outlet } from 'react-router-dom'
+import './App.scss'
+import Nav from './components/Nav/Nav'
+import SecondaryNav from './components/SecondaryNav/SecondaryNav'
+import { useState, useEffect, useContext } from 'react';
+
+function App() {
+  const [productsArray, setProductsArray] = useState([]);
+  const [notification, setNotification] = useState(0);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}src/productRoutes/getAllProducts.php`);
+      const products = await response.json();
+      setProductsArray(products);
+    } catch (error) {
+      console.error('Error fetching products:', error);
+    }
+  };
+
+  const sessionStart = async () => {
+    try {
+      await fetch(`${import.meta.env.VITE_BACKEND_URL}src/userRoutes/sessionStart.php`, {
+        credentials: 'include'
+      });
+    } catch (error) {
+      console.error('Error while creating session: ', error)
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
+    sessionStart();
+  }, []);
+
+  return (
+    <>
+      <Nav
+        notification={notification}
+        setNotification={setNotification}
+      />
+      <SecondaryNav />
+      <button style={{ color: 'white' }} type='button' onClick={handleDisconnect}>x</button>
+      <Outlet
+        context={{ productsArray, notification, setNotification }}
+      />
+    </>
+  )
+}
+
+export default App;
+```
+
 ### Utilisation dans un projet ❌ / ✔️
 
-[lien github](...)
+[lien github](https://github.com/FlorenceBuchelet/decitrephpbackend)
 
 Description :
 

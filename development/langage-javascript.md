@@ -8,7 +8,7 @@
 
 - les `structures` de base du langage ✔️
 - les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- l'utilisation de l'`asynchrone` ✔️
 - les spécifités du mot-clef `this` ❌ / ✔️
 
 ## 💻 Je code en Javascript
@@ -16,7 +16,13 @@
 ### Un exemple de code commenté ❌ / ✔️
 
 ```javascript
-(e) => mc2;
+            if (Zend_Validate::is(trim($post['secureInput']), 'NotEmpty')) {
+                // si le champ secure input est rempli, simule l'envoi du formulaire
+                Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Thank you for contacting us. If you don't receive an email 
+                confirmation please resend your inquiry.'));
+                $this->_redirect($redirectTo);
+                return;
+            }
 ```
 
 ### Utilisation dans un projet ❌ / ✔️
