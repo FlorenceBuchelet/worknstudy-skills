@@ -30,6 +30,7 @@ Description :
 ### Utilisation en environement professionnel ❌ / ✔️
 
 Description :
+Le projet de site web marchand de mon entreprise utilise Docker compose et Nginx pour orchestrer ses microservices.
 
 ## 🌐 J'utilise des ressources
 
@@ -54,4 +55,5 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit une [doc](docs\Microservices_FR.md) ✔️
+- J'ai ecrit une [doc sur les microservice](docs\Microservices_FR.md) ✔️
+- J'ai ecrit une [doc sur NginX](docs\Nginx_EN.md) ✔️
