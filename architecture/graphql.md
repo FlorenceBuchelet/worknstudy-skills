@@ -18,7 +18,7 @@
 ### Un exemple personnel commenté ✔️
 
 ```js
-import { Query, Resolver } from "type-graphql"; // Type GraphQL 
+import { Query, Resolver } from "type-graphql"; // Types GraphQL 
 import { Category } from "../entities/Category";
 import { dataSource } from "../dataSource/dataSource";
 
@@ -50,7 +50,7 @@ export class User extends BaseEntity { // BaseEntity est optionnel mais permet �
 }
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
 [lien github](https://github.com/FlorenceBuchelet/the-good-corner)
 
@@ -59,13 +59,13 @@ Description :
 ### Utilisation en production si applicable❌ / ✔️
 
 [lien du projet](https://www.decitre.fr/)
-Le repo n'est pas publique mais le site est en ligne.
+Le repo n'est pas public mais le site est en ligne.
 
-Description : <!-- TODO: entrer dans les détails de l'archi Decitre -->
+Description : <!-- TODO: entrer dans les détails de l'archi FC -->
 
 ### Utilisation en environement professionnel ✔️
 
-Description : Le projet sur lequel je travaille en entreprise intègre GraphQL dans sa stack.
+Description : Le projet sur lequel je travaille en entreprise intègre GraphQL, Apollo et CodeGen dans sa stack.
 
 ## 🌐 J'utilise des ressources
 

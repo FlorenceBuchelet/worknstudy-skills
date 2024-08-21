@@ -15,38 +15,39 @@
 
 ### Un exemple de code commenté ❌ / ✔️
 
-```javascript
-            if (Zend_Validate::is(trim($post['secureInput']), 'NotEmpty')) {
-                // si le champ secure input est rempli, simule l'envoi du formulaire
-                Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Thank you for contacting us. If you don't receive an email 
-                confirmation please resend your inquiry.'));
-                $this->_redirect($redirectTo);
-                return;
-            }
-```
+```js
+    if (Zend_Validate::is(trim($post['secureInput']), 'NotEmpty')) {
+        // si le champ secure input est rempli, simule l'envoi du formulaire
+        Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__("Thank you for contacting us. If you don't receive an email confirmation please resend your inquiry."));
+        $this->_redirect($redirectTo);
+        return;
+    }
+``` 
+<!-- FIXME: cet exemple est plus un zend qu'un JS -->
+**Zend_validate** est utilisé dans le Zend framework sur lequel Magento est basé. Ce projet d'entreprise est en legacy Magento. 
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/FlorenceBuchelet/decitrephpbackend)
 
-Description :
+Description : Le frontend de ce clone du site de mon entreprise est fait en ReactJS.
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+### Utilisation en production si applicable✔️
 
-[lien du projet](...)
+[lien du projet](https://www.decitre.fr/)
 
-Description :
+Description : Le site de l'entreprise est fait en Front-Commerce et Remix, en utilisant Typescript. On y trouve donc aussi des fichiers uniquement rédigés en JS.
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ✔️
 
-Description :
+Description : Le site de l'entreprise est fait en Front-Commerce et Remix, en utilisant Typescript. On y trouve donc aussi des fichiers uniquement rédigés en JS.
 
 ## 🌐 J'utilise des ressources
 
 ### Titre
 
-- lien
-- description
+- [MDN](https://developer.mozilla.org/fr/) : Il n'y a pas de meilleures resources que MDN quand il s'agit de JS. 
+- [CodeWars](https://www.codewars.com/dashboard) : Pour se challenger en algo.
 
 ## 🚧 Je franchis les obstacles
 
@@ -64,6 +65,5 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ✔️ <!--  Ajouter le tuto d'implémentation du HoneyPot -->
 - J'ai fait une [présentation](...) ❌ / ✔️
-

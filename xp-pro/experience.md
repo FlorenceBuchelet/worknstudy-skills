@@ -18,21 +18,26 @@ Développeuse front. C'est une autre structure qui code le nouveau frontend du s
 
 4. Qu'est ce qui a bien fonctionné en terme de communication avec ton équipe ?
 
+Mon autonomie a été un grand atout ainsi que ma confiance en moi. Quand on me pose une question, même si je n'ai pas la réponse, j'ai confiance en ma capacité à la trouver. Je n'ai pas peur de demander du temps pour réfléchir à un sujet afin de mieux l'aborder par la suite.
+
 L'écriture de docs pour expliquer mes process. Ils prennent le temps de la lire et de me faire des retours.
 
 5. Qu'est ce qui n'a pas bien fonctionné en terme de communication avec le reste de l'équipe ?
 
 Le distanciel en présentiel.
 
+Il aurait été agréable et apaisant d'avoir du télé-travail afin d'être sur un pied d'égalité avec le reste de l'équipe mais cela n'a finalement pas été autorisé pour les alternants.
+
 6. Quelle(s) proposition(s) pourrais tu faire pour améliorer ton intégration dans l'équipe ?
 
-...
+Ma présence aux daily a déjà beaucoup aidé. Je pourrai faire un déplacement à Lyon pour les rencontrer. Lorsque j'ai été embauchée à ce poste, il était question de ça mais finalement les déplacements qui ne sont pas absolument nécessaires au bon fonctionnement de l'entreprise sont suspendus pour le moment. 
 
 ## Expérience technique
 
 1. Quel est le projet principal sur lequel tu as travaillé sur cette période. (liste les projets si il y en a plusieurs) ?
 
 - Front-commerce/remix refonte.
+- dataLayer
 
 2. Quelle est la tâche la plus intéressante accomplie lors de cette période ?
 

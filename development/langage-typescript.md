@@ -13,7 +13,7 @@
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
 ```js
 declare global {
@@ -22,7 +22,7 @@ declare global {
     }
 }
 
-const getAjaxBody = (pageID: string | undefined, pageStatus: string | undefined, request: Request, loaderData: any | undefined, searchTerm: string | undefined | null): Record<string, any> => {
+const getAjaxBody = (pageID: string | undefined, pageStatus: string | undefined, request: Request, searchTerm: string | undefined | null): Record<string, any> => {
     const cookies = request.headers.get('set-cookie') || request.headers.get('cookie');
     let customerCookie: string | undefined = undefined;
     if (cookies) {
@@ -36,7 +36,7 @@ const getAjaxBody = (pageID: string | undefined, pageStatus: string | undefined,
     } (...)
 }
 ```
-Ici on a une déclaration de type pour un objet dataLayer2 et une fonction getAjaxBody avec ses arguments fortement typés.
+Ici on a une déclaration de type pour un objet dataLayer2 et une fonction getAjaxBody avec ses arguments typés.
 
 ### Utilisation dans un projet ❌ / ✔️
 
